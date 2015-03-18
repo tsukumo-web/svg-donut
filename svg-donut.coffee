@@ -31,15 +31,16 @@ module.exports = class Donut extends SVG
          Z"
 
     _anim_part: ( part, duration, callback ) ->
-        diff = (part.origin + part.amount * 3.6) - @settings.origin
+        diff = part.amount * 3.6
 
         if @settings.progressive
             orig_diff = part.origin - @settings.origin
-            anim = ( t ) => part.path.attr 
+            diff += orig_diff
+            anim = ( t ) => part.path.attr
                 d: @_calc_path @settings.origin + orig_diff * t, @settings.origin + diff * t, part
         else
-            anim = ( t ) => part.path.attr 
-                d: @_calc_path part.origin, @settings.origin + diff * t, part
+            anim = ( t ) => part.path.attr
+                d: @_calc_path part.origin, part.origin + diff * t, part
 
         Snap.animate 0, 1, anim, duration, @settings.easing, callback
 
