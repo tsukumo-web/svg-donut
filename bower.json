@@ -1,0 +1,24 @@
+{
+  "name": "svg-donut",
+  "version": "1.0.0",
+  "authors": [
+    "tsukumo <tsukumo.code@gmail.com>"
+  ],
+  "description": "robust svg donut implementation",
+  "main": "svg-donut.coffee",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "svg",
+    "donut"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "*",
+    "!svg-donut.coffee"
+  ],
+  "dependencies": {
+    "Snap.svg": "~0.3.0"
+  }
+}
