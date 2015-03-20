@@ -17,6 +17,7 @@ donut = new Donut
             offset      : 0             # shift in by this percent
             origin      : -90           # start from a different origin
             static      : false         # do not animate
+            reset       : false         # resets origin for stacks
         }, { ... }
     ],
     thickness           : 10            # percent of space consumed
@@ -29,3 +30,16 @@ donut = new Donut
 
 document.body.appendChild donut.dom
 ```
+
+Version 2
+---
+
+- Reformatted code to use more robust svg engine
+- Supported resetting origin for easier stacks
+
+Version 3 (coming soon)
+---
+
+- updatability of data
+- interactivity
+
