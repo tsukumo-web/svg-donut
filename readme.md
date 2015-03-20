@@ -4,6 +4,13 @@ svg-donut
 
 > A robust svg donut implementation
 
+Install
+---
+
+Install with NPM (for the moment certain dependencies dont support bower)
+
+`npm i --save https://github.com/tsukumo-web/svg-donut.git`
+
 API
 ---
 

@@ -1,0 +1,23 @@
+{
+  "name": "svg-donut",
+  "version": "2.0.3",
+  "description": "robust svg donut implementation",
+  "main": "svg-donut.coffee",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tsukumo-web/svg-donut.git"
+  },
+  "keywords": [
+    "svg",
+    "donut"
+  ],
+  "author": "tsukumo <tsukumo.code+web@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tsukumo-web/svg-donut/issues"
+  },
+  "homepage": "https://github.com/tsukumo-web/svg-donut",
+  "dependencies": {
+    "raphael": "^2.1.4"
+  }
+}
