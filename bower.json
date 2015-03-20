@@ -1,6 +1,6 @@
 {
   "name": "svg-donut",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "authors": [
     "tsukumo <tsukumo.code@gmail.com>"
   ],
@@ -19,6 +19,8 @@
     "!svg-donut.coffee"
   ],
   "dependencies": {
-    "underscore": "~1.8.2"
+    "underscore": "~1.8.2",
+    "eve": "https://github.com/adobe-webplatform/eve.git#~0.2.4",
+    "raphael": "~2.1.4"
   }
 }
