@@ -1,5 +1,6 @@
 
 require "raphael"
+_ = require "underscore"
 
 setAnimation = ( step, dur, done ) ->
     t = 0

@@ -1,6 +1,6 @@
 {
   "name": "svg-donut",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "authors": [
     "tsukumo <tsukumo.code@gmail.com>"
   ],
@@ -19,6 +19,6 @@
     "!svg-donut.coffee"
   ],
   "dependencies": {
-    "raphael": "~2.1.4"
+    "underscore": "~1.8.2"
   }
 }
